@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="form-wrapper sign-in">
+            <form action="gestion.html">
+                <h2>login</h2>
+                <div class="input-group">
+                    <input id="user" type="text" required>
+                    <label for="">username</label>
+                </div>
+                <div class="input-group">
+                    <input id="password" type="password" required>
+                    <label for="">password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">remember me</label>
+                </div>
+               <button type="button" onclick="login()">login</button>
+               <div class="signUp-link">
+                <p>Don't have an account? <a href="#" class="signUpBtn-link">sign Up</a></p>
+               </div>
+            </form>
+        </div>
+
+        
+            <div class="form-wrapper sign-up">
+                <form action="">
+                    <h2>sign Up</h2>
+                    <div class="input-group">
+                        <input type="text" required>
+                        <label for="">username</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required>
+                        <label for="">password</label>
+                    </div>
+                    <div class="remember">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                   <button type="submit">sign Up</button>
+                   <div class="signUp-link">
+                    <p>Already have an account? <a href="#" class="signInBtn-link">sign In</a></p>
+                   </div>
+                </form>
+    
+            </div>
+    </div>
+    
+   
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
